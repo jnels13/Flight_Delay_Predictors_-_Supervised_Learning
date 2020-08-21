@@ -26,7 +26,7 @@ After one-hot encoding, I applied a decision-tree model and review the most impo
 
 As a disclaimer, these models will not predict a delayed flight with any great accuracy (the final testing accuracy was approximately 65%). However, it does give significant insight into which factors are more predictive of a delay. The initial decision tree showed the scheduled departure time to be the most significant feature in predicting delay. I looked at the three-hour windows in terms of delay, which lends some insight on the best (and worst) departure windows to choose: 
 
-![Delays by Departure]
+<img src="https://github.com/jnels13/Flight_Delay_Predictors_Supervised_Learning_Flatiron3.2.1/blob/master/Airline.png?raw=true" width="920" height="533">
 
 Clearly, the 3am-6am departure window has the best on-time arrival performance, which then decreases through the day. Also in the initial model, Delta and Southwest Airlines were significant predictors (and to a lesser extent, Alaska Airlines, as well). Accordingly, I visualized the individual airlines' on-time performance as well:
 
