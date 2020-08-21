@@ -40,7 +40,7 @@ As I developed the random forest, additional features emerged as "important": mo
 
 There is no obviously significant variance in the delays over these six months, though on-time performance appears to improve in April and May.  The relationship between airtime and delays was more clear. Longer flights were much less delayed: 
 
-<img src="https://github.com/jnels13/Flight_Delay_Predictors_Supervised_Learning_Flatiron3.2.1/blob/master/Airtime.png?raw=true" width="478" height="480">
+<img src="https://github.com/jnels13/Flight_Delay_Predictors_Supervised_Learning_Flatiron3.2.1/blob/master/Airtime.png?raw=true" width="478" height="700">
 
 Of these, airtime is the least "flexible," though travelers would be most likely to avoid delays by taking early morning flights, on Delta, in April or May.
 
