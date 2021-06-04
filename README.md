@@ -19,8 +19,7 @@ Initial review of the dataset found 5,819,079 rows and 31 columns. The data were
 
 Review of the data with regard to flight delays (focusing on American airlines) shows that while American has the third-highest number of segments (takeoff-landing), its on-time performance is relatively good, with the third-least number of delays. However, when it has delays, they're longer than most other airlines.  Finally, instigators of delays are summarized on the last slide.
 
-<img src="https://github.com/jnels13/Flight_Delay_Predictors_-_Supervised_Learning/blob/master/Tableau_Airline_Delays.mp4" width="972" height="692">
-
+<img src="https://github.com/jnels13/Flight_Delay_Predictors_-_Supervised_Learning/blob/master/Tableau_Delays.gif" width="972" height="692">
 
 ### Methodology
 
