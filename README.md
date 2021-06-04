@@ -17,7 +17,7 @@ The dataset is too large to load into Github; it may be downloaded at the Kaggle
 
 Initial review of the dataset found 5,819,079 rows and 31 columns. The data were very clean and complete, though there were several columns which would not add to the analysis and were dropped. Additionally, the departure time feature was converted from continuous to a categorical variable composed of three-hour "windows." Additionally, the target, "arrival delay", was converted to a binary on-time/late, based upon a specific cut-off specified by the model user (the results below are based upon a zero-minutes-late threshold).
 
-Review of the data with regard to flight delays (focusing on American airlines) shows that while American has the third-highest number of segments (takeoff-landing), its on-time performance is relatively good, with the third-least number of delays. However, when it has delays, they're longer than most other airlines.  Finally, instigators of delays are summarized on the last slide.
+Review of the data in Tableau with regard to flight delays (focusing on American airlines) shows that while American has the third-highest number of segments (takeoff-landing), its on-time performance is relatively good, with the third-least number of delays. However, when it has delays, they're longer than most other airlines.  Finally, instigators of delays are summarized on the last slide.
 
 <img src="https://github.com/jnels13/Flight_Delay_Predictors_-_Supervised_Learning/blob/master/Tableau_Delays.gif" width="584" height="415">
 
