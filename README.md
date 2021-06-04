@@ -13,14 +13,22 @@ The files in the repository include the following:
 
 The dataset is too large to load into Github; it may be downloaded at the Kaggle link above. 
 
-### Methodology
+### Initial Review of the Data
 
 Initial review of the dataset found 5,819,079 rows and 31 columns. The data were very clean and complete, though there were several columns which would not add to the analysis and were dropped. Additionally, the departure time feature was converted from continuous to a categorical variable composed of three-hour "windows." Additionally, the target, "arrival delay", was converted to a binary on-time/late, based upon a specific cut-off specified by the model user (the results below are based upon a zero-minutes-late threshold).
 
-The size of the dataset presented the most limiting factor. Initial review found that there were several airports with only a single flight in or out in the one-year span of the dataset, so the airports were limited to only those designated as "Primary" airports by the FAA, for both arrivals and departures.  Similarly, I considered but rejected limiting the airlines in the model, considering their potential significance as predictors. Ultimately, I decided to limit the dataset to the first have of the year (Jan-Jun).  This reduced the datset enough to allow the models to run without too much delay. 
+Review of the data with regard to flight delays (focusing on American airlines) shows that while American has the third-highest number of segments (takeoff-landing), its on-time performance is relatively good, with the third-least number of delays. However, when it has delays, they're longer than most other airlines.  Finally, instigators of delays are summarized on the last slide.
+
+<img src="https://github.com/jnels13/Flight_Delay_Predictors_-_Supervised_Learning/blob/master/Tableau_Airline_Delays.mp4" width="972" height="692">
+
+
+### Methodology
+
+The size of the dataset presented the most limiting factor. The data were very clean and complete, though there were several columns which would not add to the analysis and were dropped. Additionally, the departure time feature was converted from continuous to a categorical variable composed of three-hour "windows." Additionally, the target, "arrival delay", was converted to a binary on-time/late, based upon a specific cut-off specified by the model user (the results below are based upon a zero-minutes-late threshold).
+
+Initial review found that there were several airports with only a single flight in or out in the one-year span of the dataset, so the airports were limited to only those designated as "Primary" airports by the FAA, for both arrivals and departures.  Similarly, I considered but rejected limiting the airlines in the model, considering their potential significance as predictors. Ultimately, I decided to limit the dataset to the first have of the year (Jan-Jun).  This reduced the datset enough to allow the models to run without too much delay. 
 
 After one-hot encoding, I applied a decision-tree model and review the most important features. I then applied a random-forest model to the data, and again looked for the most important features. Finally, a GridSearch was formed to further tune the random forest, and the most important features were again 
-
 
 ### Results
 
