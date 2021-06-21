@@ -2,7 +2,7 @@
 
 ### Introduction
 
-For the Mod3 Final Project, I used decision-tree and random-forest classifiers to determine which features were most important in predicting whether flights would be late.  I used the 2015 Flight Delays and Cancelations dataset from Kaggle (https://www.kaggle.com/usdot/flight-delays).  The dataset is very large, especially after it was one-hot encoded.  This was the largest challenge in the project, though using Google Colab Pro was a great resource.  
+For this project, I used decision-tree and random-forest classifiers to determine which features were most important in predicting whether flights would be late.  I used the 2015 Flight Delays and Cancelations dataset from Kaggle (https://www.kaggle.com/usdot/flight-delays).  The dataset is very large, especially after it was one-hot encoded.  This was the largest challenge in the project, though using Google Colab Pro was a great resource.  
 
 ### Repository Contents
 
